@@ -1,0 +1,16 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+  int i=1;
+  int sum=0;
+  int num=Convert.ToInt32(Console.ReadLine());
+    while(i<=100)
+    {
+      sum += num;
+      i++;
+      num=Convert.ToInt32(Console.ReadLine());
+    }
+    Console.WriteLine("Sum is" + sum);
+  }
+}
