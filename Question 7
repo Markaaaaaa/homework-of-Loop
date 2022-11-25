@@ -1,0 +1,22 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+  int sum=0,n,x,i=1,s=1,c=1,h=0;
+    Console.WriteLine("Enter n");
+    n=Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Enter x");
+    x=Convert.ToInt32(Console.ReadLine());
+    while(i<=n)
+    {
+      while(c<=(i+1))
+      {
+       s*=x;
+      }
+      h=1/s;
+      sum+=h;
+      i++;
+    }
+    Console.WriteLine("Y= {0}", sum);
+  }
+}
