@@ -2,7 +2,7 @@ using System;
 
 class Program {
   public static void Main (string[] args) {
-  int sum=0,n,x,i=1,s=1,c=1,h=0;
+  int sum=0,n,x,i=1,c=1;
     Console.WriteLine("Enter n");
     n=Convert.ToInt32(Console.ReadLine());
     Console.WriteLine("Enter x");
@@ -11,10 +11,10 @@ class Program {
     {
       while(c<=(i+1))
       {
-       s*=x;
+       x*=x;
+       c++
       }
-      h=1/s;
-      sum+=h;
+      sum+=1/x;
       i++;
     }
     Console.WriteLine("Y= {0}", sum);
