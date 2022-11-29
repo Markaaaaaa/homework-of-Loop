@@ -2,7 +2,7 @@ using System;
 
 class Program {
   public static void Main (string[] args) {
-  int sum=0,n,x,i=1,c=1;
+  double sum=0,n,x,i=1,c=1;
     Console.WriteLine("Enter n");
     n=Convert.ToInt32(Console.ReadLine());
     Console.WriteLine("Enter x");
