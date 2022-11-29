@@ -19,6 +19,6 @@ class Program {
         odd+=1;
       }
     }
-    Console.WriteLine("There are {0} even and {1} odd", even, odd);
+    Console.WriteLine("There are {0} even numbers and {1} odd numbers", even, odd);
   }
 }
