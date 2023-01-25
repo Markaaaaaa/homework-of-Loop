@@ -12,7 +12,7 @@ class Program {
       while(c<=(i+1))
       {
        x*=x;
-       c++
+       c++;
       }
       sum+=1/x;
       i++;
